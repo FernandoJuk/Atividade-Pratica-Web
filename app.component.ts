@@ -5,7 +5,7 @@ import { Estudante } from './arquivo';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-//                        ALIMENTANDO AS INFORMAÇÕES  DOS OBJETOS
+//                       ALIMENTANDO AS INFORMAÇÕES  DOS OBJETOS
 export class AppComponent {
   fernando = new Estudante("FERNANDO", 3679815, "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS", "08/08/1984");
   susan= new Estudante("SUSAN", 3545101, "GESTÃO COMERCIAL", "25/041983");
